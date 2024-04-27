@@ -1,0 +1,9 @@
+// Given numbers
+var number1 = 5;
+var number2 = 8;
+
+// Check if the sum of the two numbers is even
+var isSumEven = (number1 + number2) % 2 === 0;
+
+// Print the result
+console.log("Is the sum of", number1, "and", number2, "even?   =", isSumEven);

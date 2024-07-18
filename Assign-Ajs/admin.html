@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce Admin Panel</title>
+    <script src="/Assign-Ajs/ConstructorFunction.js" defer></script>
+</head>
+<body>
+    <h1>ECommerce Admin Panel</h1>
+    <form id="productForm">
+        <label for="name">Product Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="category">Category:</label><br>
+        <input type="text" id="category" name="category" required><br><br>
+
+        <label for="image">Image URL:</label><br>
+        <input type="text" id="image" name="image" required><br><br>
+
+        <label for="price">Price:</label><br>
+        <input type="number" id="price" name="price" min="0" step="0.01" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="unisex">Unisex</option>
+        </select><br><br>
+
+        <label for="sold">Sold:</label><br>
+        <input type="checkbox" id="sold" name="sold"><br><br>
+
+        <button type="submit" id="add">Add Product</button>
+    </form>
+</body>
+</html>
